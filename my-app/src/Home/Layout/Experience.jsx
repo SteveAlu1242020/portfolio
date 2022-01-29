@@ -13,7 +13,7 @@ const Experience = () => {
   const ExpSection = useRef(null);
   return (
     <div
-      className="relative bg-[#264E86] h-[33rem] md:h-[36rem] lg:h-80 mb-64 dark:bg-gray-800"
+      className="relative bg-[#264E86] h-[33rem] md:h-[36rem] lg:h-80 dark:bg-gray-800"
       ref={ExpSection}>
       <div className="max-w-7xl m-auto flex flex-col lg:block">
         <div className="p-6 lg:p-10 border-box order-2">

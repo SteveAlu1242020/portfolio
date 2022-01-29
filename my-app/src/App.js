@@ -3,6 +3,7 @@ import './App.css';
 import Experience from './Home/Layout/Experience';
 import Hero from './Home/Layout/Hero';
 import Navigator from './Home/Layout/Navigator';
+import Projects from './Home/Layout/Projects';
 
 export const menuDisplayContext = createContext(null)
 
@@ -14,6 +15,7 @@ function App() {
       <menuDisplayContext.Provider value={[menuOpen, setMenuOpen]}>
         <Hero dark={dark} setDark={setDark} />
         <Experience />
+        <Projects />
         <Navigator dark={dark} setDark={setDark} />
       </menuDisplayContext.Provider>
     </div>
