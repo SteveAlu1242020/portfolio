@@ -49,7 +49,7 @@ const Navbar = ({ dark, setDark }) => {
           )}
         </div>
         <div className="px-2 border-box ">
-          <Button type="submit" bgColor="bg-[#4A4F85]">
+          <Button type="submit" bgColor="bg-[#4A4F85] dark:bg-[#31345a]">
             <span className="tracking-wide">HIRE ME</span>
           </Button>
         </div>

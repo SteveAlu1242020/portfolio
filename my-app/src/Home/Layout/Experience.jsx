@@ -22,12 +22,12 @@ const Experience = () => {
               I &#x2764; Front-end
             </div>
 
-            <div className="order-2 lg:absolute mb-8 lg:m-auto bg-white p-2 sm:p-8 md:p-10 lg:p-14 border-box shadow-inner md:w-[20rem] lg:w-[25.8rem] rounded right-0 top-2 z-10 border-r-8 border-[#4A4F85]">
+            <div className="order-2 lg:absolute mb-8 lg:m-auto bg-white p-2 sm:p-8 md:p-10 lg:p-14 border-box shadow-inner md:w-[20rem] lg:w-[25.8rem] rounded right-0 top-2 z-10 border-r-8 border-[#4A4F85] dark:border-[#31345a]">
               <TypingText />
             </div>
 
             <div className="lg:absolute order-3 bottom-[-10.3rem] left-[45.6rem] top-6 z-10">
-              <Button border="border-none lg:rounded-tl rounded-bl bg-[#4A4F85] px-3 py-2 rounded">
+              <Button border="border-none lg:rounded-tl rounded-bl bg-[#4A4F85] dark:bg-[#31345a] px-3 py-2 rounded">
                 Contact
               </Button>
             </div>
