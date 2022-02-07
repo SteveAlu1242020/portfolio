@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import Button from "../Components/Button";
 import { FaRegMoon, FaSun } from "react-icons/fa";
 import Menu from "./Menu";
@@ -6,9 +6,10 @@ import { menuDisplayContext } from "../../App";
 
 const Navigator = ({ dark, setDark }) => {
   const [menuOpen, setMenuOpen] = useContext(menuDisplayContext);
+
   return (
     <div className="w-full p-3 bg-gray-900  fixed left-0 right-0 bottom-0 sm:hidden shadow-2xl z-30 flex justify-between items-center">
-      <div className="px-2 border-box">
+      <div className="px-2 border-box flex gap-2">
         {dark ? (
           <Button
             type="submit"

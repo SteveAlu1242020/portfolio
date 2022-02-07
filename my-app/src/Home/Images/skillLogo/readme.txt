@@ -1,0 +1,16 @@
+html5
+css3
+sass
+tailwindcss
+javascript
+react
+redux
+node
+mongodb
+express
+restApi
+wordpress
+joomla
+photoshop
+figma
+git

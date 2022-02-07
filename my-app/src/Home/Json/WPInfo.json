@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Healthcare",
+    "urlAddress": "cfidoffice.com",
+    "visitLink": "https://cfidoffice.com/",
+    "image": "https://ip413.net/portfolio/cfidoffice-screen.png",
+    "alt": "Healthcare-Website"
+  },
+  {
+    "id": 2,
+    "title": "eCommerce",
+    "urlAddress": "nursingmommanola.com",
+    "visitLink": "https://nursingmommanola.com/",
+    "image": "https://ip413.net/portfolio/nursingnola-screen.png",
+    "alt": "eCommerce-Website"
+  },
+  {
+    "id": 3,
+    "title": "Real Estate",
+    "urlAddress": "jpgrouprealty.com",
+    "visitLink": "https://jpgrouprealty.com/",
+    "image": "https://ip413.net/portfolio/jprealty-screen.png",
+    "alt": "Realty-Website"
+  },
+  {
+    "id": 4,
+    "title": "Non-profit",
+    "urlAddress": "vdraction.org",
+    "visitLink": "https://vdraction.org/",
+    "image": "https://ip413.net/portfolio/vdraction-screen.png",
+    "alt": "Non-profit-Website"
+  }
+]

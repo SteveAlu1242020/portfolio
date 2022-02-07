@@ -1,24 +1,32 @@
 [
   {
     "id": 1,
-    "title": "Trip.com X1",
+    "title": "Trip",
     "description": {
-      "p1": "An Awesome Landing Page X1",
-      "p2": "That Resembles The Actual Website X1",
-      "p3": "Trip.com X1"
+      "p1": "Landing Page",
+      "p2": "That Resembles The Actual Website",
+      "p3": "trip.com"
+    },
+    "technologies": {
+      "p1": "React.js, Sass, Node",
+      "p2": "Express.js, MongoDB, Rest API"
     },
     "url": "https://trip-prod.web.app/",
-    "image": ""
+    "image": "https://ip413.net/portfolio/trip-mac.png"
   },
   {
     "id": 2,
-    "title": "Trip.com X2",
+    "title": "Moralis",
     "description": {
-      "p1": "An Awesome Landing Page X2",
-      "p2": "That Resembles The Actual Website X2",
-      "p3": "Trip.com X2"
+      "p1": "Landing Page",
+      "p2": "That Resembles The Actual Website",
+      "p3": "moralis.io"
     },
-    "url": "https://trip-prod.web.app/",
-    "image": ""
+    "technologies": {
+      "p1": "*currently under development*",
+      "p2": "React.js, Redux, TypeScript, Tailwind"
+    },
+    "url": "",
+    "image": "https://ip413.net/portfolio/moralis-mac.png"
   }
 ]

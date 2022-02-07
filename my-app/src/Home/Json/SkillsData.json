@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "percentage": 95,
+    "image": "https://ip413.net/portfolio/skill-logos/Html5.png",
+    "alt": "HTML5"
+  },
+  {
+    "id": 2,
+    "percentage": 95,
+    "image": "https://ip413.net/portfolio/skill-logos/Css3.png",
+    "alt": "CSS3"
+  },
+  {
+    "id": 3,
+    "percentage": 80,
+    "image": "https://ip413.net/portfolio/skill-logos/Sass.png",
+    "alt": "Sass"
+  },
+  {
+    "id": 4,
+    "percentage": 95,
+    "image": "https://ip413.net/portfolio/skill-logos/Tailwind.png",
+    "alt": "Tailwind"
+  },
+  {
+    "id": 5,
+    "percentage": 80,
+    "image": "https://ip413.net/portfolio/skill-logos/JavaScript.png",
+    "alt": "JavaScript"
+  },
+  {
+    "id": 6,
+    "percentage": 25,
+    "image": "https://ip413.net/portfolio/skill-logos/TypeScript.png",
+    "alt": "TypeScript"
+  },
+  {
+    "id": 7,
+    "percentage": 80,
+    "image": "https://ip413.net/portfolio/skill-logos/React.png",
+    "alt": "React"
+  },
+  {
+    "id": 8,
+    "percentage": 50,
+    "image": "https://ip413.net/portfolio/skill-logos/Redux.png",
+    "alt": "Redux"
+  },
+  {
+    "id": 9,
+    "percentage": 25,
+    "image": "https://ip413.net/portfolio/skill-logos/Node.png",
+    "alt": "NodeJs"
+  },
+  {
+    "id": 10,
+    "percentage": 25,
+    "image": "https://ip413.net/portfolio/skill-logos/Expressjs.png",
+    "alt": "Express"
+  },
+  {
+    "id": 11,
+    "percentage": 25,
+    "image": "https://ip413.net/portfolio/skill-logos/MongoDB.png",
+    "alt": "MongoDB"
+  },
+  {
+    "id": 12,
+    "percentage": 70,
+    "image": "https://ip413.net/portfolio/skill-logos/Git.png",
+    "alt": "Git"
+  },
+  {
+    "id": 13,
+    "percentage": 75,
+    "image": "https://ip413.net/portfolio/skill-logos/WordPress.png",
+    "alt": "WordPress"
+  },
+  {
+    "id": 14,
+    "percentage": 50,
+    "image": "https://ip413.net/portfolio/skill-logos/Joomla.png",
+    "alt": "Joomla"
+  },
+  {
+    "id": 15,
+    "percentage": 70,
+    "image": "https://ip413.net/portfolio/skill-logos/Photoshop.png",
+    "alt": "Photoshop"
+  },
+  {
+    "id": 16,
+    "percentage": 70,
+    "image": "https://ip413.net/portfolio/skill-logos/Figma.png",
+    "alt": "Figma"
+  }
+]

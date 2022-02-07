@@ -4,6 +4,13 @@ import Experience from './Home/Layout/Experience';
 import Hero from './Home/Layout/Hero';
 import Navigator from './Home/Layout/Navigator';
 import Projects from './Home/Layout/Projects';
+import Skills from './Home/Layout/Skills';
+import WordPress from './Home/Layout/WordPress';
+import Contact from './Home/Layout/Contact';
+import FooterTitle from './Home/Layout/FooterTitle';
+import ScrollTop from './Global/ScrollTop';
+import ScrollTopResponsive from './Global/ScrollTopResponsive';
+import Form from './Home/Components/Form';
 
 export const menuDisplayContext = createContext(null)
 
@@ -16,6 +23,12 @@ function App() {
         <Hero dark={dark} setDark={setDark} />
         <Experience />
         <Projects />
+        <WordPress />
+        <Skills />
+        <FooterTitle />
+        <Contact />
+        {/* <ScrollTop /> */}
+        <ScrollTopResponsive />
         <Navigator dark={dark} setDark={setDark} />
       </menuDisplayContext.Provider>
     </div>
