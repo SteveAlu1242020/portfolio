@@ -2,7 +2,13 @@ import React, { useRef, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
 import Button from "../Home/Components/Button";
 
+import { animateScroll as scroll } from "react-scroll";
+
 const ScrollTopResponsive = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       if (window.scrollY < 200) {
@@ -20,17 +26,12 @@ const ScrollTopResponsive = () => {
 
   const backToTop = useRef(null);
 
-  const takeMeTop = () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  };
-
   return (
     <div
-      className="hidden right-16 bottom-4 z-50 fixed hover:opacity-100"
+      className="hidden right-16 sm:right-4 bottom-4 z-50 fixed hover:opacity-100"
       ref={backToTop}>
-      <div onClick={takeMeTop}>
-        <Button>
+      <div onClick={scrollToTop}>
+        <Button bgColor="sm:bg-white sm:text-black sm:dark:bg-gray-800 sm:dark:text-white">
           <FaArrowUp />
         </Button>
       </div>

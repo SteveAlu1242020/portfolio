@@ -9,12 +9,15 @@ import { FaCode, FaUserTie } from "react-icons/fa";
 import TypingText from "../Components/TypingText";
 import Button from "../Components/Button";
 
+import { Link } from "react-scroll";
+
 const Experience = () => {
   const ExpSection = useRef(null);
   return (
     <div
       className="relative bg-[#264E86] h-[33rem] md:h-[36rem] lg:h-80 dark:bg-gray-800"
-      ref={ExpSection}>
+      ref={ExpSection}
+      id="experienceSection">
       <div className="max-w-7xl m-auto flex flex-col lg:block">
         <div className="p-6 lg:p-10 border-box order-2">
           <div className="lg:w-[50rem] m-auto relative flex flex-col lg:flex-row justify-center items-center">
@@ -27,9 +30,18 @@ const Experience = () => {
             </div>
 
             <div className="lg:absolute order-3 bottom-[-10.3rem] left-[45.6rem] top-6 z-10">
-              <Button border="border-none lg:rounded-tl rounded-bl bg-[#4A4F85] dark:bg-[#31345a] px-3 py-2 rounded">
-                Contact
-              </Button>
+              <Link
+                to="contactSection"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={800}>
+                {" "}
+                <Button border="border-none lg:rounded-tl rounded-bl bg-[#4A4F85] dark:bg-[#31345a] px-3 py-2 rounded">
+                  Contact
+                </Button>
+              </Link>
             </div>
             <div className="lg:absolute order-1 mb-8 lg:m-auto lg:bg-[#AADCEC] lg:dark:bg-gray-700 p-0 lg:p-10 border-box lg:shadow w-auto lg:w-[30rem] right-[10%] top-[-7.5rem] rounded">
               <div className="flex items-center justify-center">
@@ -71,14 +83,28 @@ const Experience = () => {
           </p>
           <div className="p-3 border-box text-left border-l-2 flex flex-col gap-4 justify-between">
             <p className="">
-              Web Designer at AMG Streams, LLC
+              Web Designer at{" "}
+              <a
+                href="https://gotoamg.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b-[1px] border-opacity-10">
+                AMG Streams, LLC
+              </a>
               <br />
               Florida, United States
               <br />
-              <span className="text-sm">2019 - Present</span>
+              <span className="text-sm">2019 - Present (remote)</span>
             </p>
             <p className="">
-              Front-end Developer Intern at Atlas Softweb
+              Front-end Developer Intern at{" "}
+              <a
+                href="https://www.atlassoftweb.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b-[1px] border-opacity-10">
+                Atlas Softweb
+              </a>
               <br />
               Gujarat, India
               <br />

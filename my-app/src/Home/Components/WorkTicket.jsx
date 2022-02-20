@@ -42,7 +42,7 @@ const WorkTicket = (props) => {
             </div>
           </div>
 
-          <div className="left z-10 flex flex-col justify-end gap-4 md:justify-between h-full mt-5 sm:mt-auto">
+          <div className="left z-10 flex flex-col justify-end gap-4 md:justify-between h-full mt-5 sm:mt-auto text-[0.95rem] sm:text-base">
             <div className="text-left">
               <h1 className="font-bold">
                 {info.title ? info.title : "*No Title*"}

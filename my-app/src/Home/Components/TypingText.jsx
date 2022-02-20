@@ -16,15 +16,15 @@ const TypingText = () => {
           cursorColor="#3F3D56"
           multiText={[
             "Hi,",
-            "Thanks For Visiting My Portfolio.",
-            "I Am Steven, You Can Call Me 'Steve'.",
-            "Graduated In 2018 With A Bachelor's Degree In Computer Science.",
-            "Started My Career With Projects In Drupal, Joomla and WordPress",
-            "Could Become A Part Of Various Web Projects Since Last 3 Years",
-            "Nowdays, I Am Really Focused Into Polishing My Skills In Some Awesome Front-end Technologies",
-            "You Can Find Some Of My Recent Projects In The Project Section.",
-            "Having An Amazing Project, Were You Need Some Help?",
-            "Come, Let's Work Together!!",
+            "Thanks for visiting my Portfolio.",
+            "I am Stephen, you can call me Steve :)",
+            "Graduated in 2018 with a Bachelor's Degree in Computer Science.",
+            "Started my career with projects in Drupal, Joomla, and WordPress.",
+            "I could become a part of various web projects since the last 3 years, which helped me to enhance my knowledge on web development.",
+            "During my spare time, I like to learn new technologies that can polish my skills on front-end development.",
+            "You can find some of my recent projects in project sections.",
+            "Have an exciting project that could use my help?",
+            "Drop me a line, let's work together!",
           ]}
           multiTextDelay={1000}
           typeSpeed={80}

@@ -5,8 +5,11 @@ import logo from "../Images/logo.png";
 import Menu from "./Menu";
 import { menuDisplayContext } from "../../App";
 
+import { Link } from "react-scroll";
+
 const Navbar = ({ dark, setDark }) => {
   const [menuOpen, setMenuOpen] = useContext(menuDisplayContext);
+
   return (
     <div className="flex justify-between bg-transparent max-w-7xl m-auto p-4 border-box items-center">
       <div className="flex dark:text-white items-center">
@@ -49,9 +52,17 @@ const Navbar = ({ dark, setDark }) => {
           )}
         </div>
         <div className="px-2 border-box ">
-          <Button type="submit" bgColor="bg-[#4A4F85] dark:bg-[#31345a]">
-            <span className="tracking-wide">HIRE ME</span>
-          </Button>
+          <Link
+            to="contactSection"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={900}>
+            <Button type="submit" bgColor="bg-[#4A4F85] dark:bg-[#31345a]">
+              <span className="tracking-wide">HIRE ME</span>
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

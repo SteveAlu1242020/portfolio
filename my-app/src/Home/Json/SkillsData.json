@@ -31,7 +31,7 @@
   },
   {
     "id": 6,
-    "percentage": 25,
+    "percentage": 50,
     "image": "https://ip413.net/portfolio/skill-logos/TypeScript.png",
     "alt": "TypeScript"
   },
@@ -67,7 +67,7 @@
   },
   {
     "id": 12,
-    "percentage": 70,
+    "percentage": 50,
     "image": "https://ip413.net/portfolio/skill-logos/Git.png",
     "alt": "Git"
   },

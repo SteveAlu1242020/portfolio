@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { MdClose } from "react-icons/md";
+import { MdArrowBackIosNew, MdClose } from "react-icons/md";
 
 const Form = (props) => {
   const { handler } = props;
@@ -12,27 +12,44 @@ const Form = (props) => {
   const [subject, setSubject] = useState();
   const [message, setMessage] = useState();
 
+  console.log(name);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    handler();
-    alert("Thank You, Your Email Has Been Sent!!");
-    emailjs
-      .sendForm(
-        "service_dn5rzu6",
-        "template_35r2skv",
-        form.current,
-        "user_RR5QBkdxBBQ9ZANgmDXcH"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
+    const nameCondition = name === undefined;
+    const emailCondition = email === undefined;
+    const subjectCondition = subject === undefined;
+    const messageCondition = message === undefined;
+
+    if (nameCondition) {
+      alert("'Name' Cannot Be Empty!");
+    } else if (emailCondition) {
+      alert("'Email' Cannot Be Empty!");
+    } else if (subjectCondition) {
+      alert("'Subject' Cannot Be Empty!");
+    } else if (messageCondition) {
+      alert("'Message Field' Cannot Be Empty!");
+    } else {
+      emailjs
+        .sendForm(
+          "service_dn5rzu6",
+          "template_35r2skv",
+          form.current,
+          "user_RR5QBkdxBBQ9ZANgmDXcH"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            alert("Thank You, Your Email Has Been Sent!!");
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.reset();
+      handler();
+    }
   };
 
   return (
@@ -66,7 +83,7 @@ const Form = (props) => {
           <input
             type="text"
             name="user_phone"
-            placeholder="Phone"
+            placeholder="Phone (optional)"
             className="p-2 m-1 border-box rounded border shadow outline-none"
           />
           <input

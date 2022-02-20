@@ -10,7 +10,7 @@ const Hero = ({ dark, setDark }) => {
         <div className="p-7 border-box border-box z-20 order-2 md:order-1">
           <h1 className="text-4xl md:text-6xl text-left dark:text-white">
             Hi, my <br />
-            name is <span className="font-semibold">Steven</span>
+            name is <span className="font-semibold">Stephen</span>
           </h1>
           <p className="pt-2 border-box text-left dark:text-white">
             A Front-end Developer, Creative Thinker and Passionate Learner

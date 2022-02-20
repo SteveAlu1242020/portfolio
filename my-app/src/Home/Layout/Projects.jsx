@@ -18,7 +18,7 @@ const Projects = () => {
     swipeToSlide: true,
   };
   return (
-    <div className="dark:bg-gray-900">
+    <div className="dark:bg-gray-900" id="projectSection">
       <div className="max-w-7xl m-auto border-box pt-10 pb-16 overflow-hidden">
         <h1 className="text-3xl text-center sm:text-left sm:pl-10 border-box dark:text-white">
           Recent Projects
