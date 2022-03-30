@@ -7,7 +7,7 @@ const SkillCapsule = (props) => {
     <div
       className="w-72 dark:border-transparent p-2 border-box rounded-lg hover:shadow-md dark:bg-gray-600 transition
       backdrop-blur-xl bg-white/30 bg-clip-padding backdrop-filter bg-opacity-60 border
-      hover:bg-opacity-100
+      hover:bg-opacity-100 hover:scale-95
       ">
       <div className="main flex items-center justify-between gap-2">
         <div className="left p-2 border-box rounded-full border bg-white">
@@ -23,7 +23,7 @@ const SkillCapsule = (props) => {
             style={{
               width: `${info.percentage ? info.percentage + "%" : "0%"}`,
             }}>
-            {info.percentage ? info.percentage + "%" : "0%"}
+            {/* {info.percentage ? info.percentage + "%" : "0%"} */}
           </div>
         </div>
       </div>

@@ -85,13 +85,13 @@
   },
   {
     "id": 15,
-    "percentage": 70,
+    "percentage": 50,
     "image": "https://ip413.net/portfolio/skill-logos/Photoshop.png",
     "alt": "Photoshop"
   },
   {
     "id": 16,
-    "percentage": 70,
+    "percentage": 50,
     "image": "https://ip413.net/portfolio/skill-logos/Figma.png",
     "alt": "Figma"
   }

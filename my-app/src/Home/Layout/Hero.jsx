@@ -8,7 +8,7 @@ const Hero = ({ dark, setDark }) => {
       <Navbar dark={dark} setDark={setDark} />
       <div className="flex flex-col md:flex md:flex-row items-center justify-center h-[40rem]">
         <div className="p-7 border-box border-box z-20 order-2 md:order-1">
-          <h1 className="text-4xl md:text-6xl text-left dark:text-white">
+          <h1 className="text-4xl md:text-5xl text-left dark:text-white">
             Hi, my <br />
             name is <span className="font-semibold">Stephen</span>
           </h1>

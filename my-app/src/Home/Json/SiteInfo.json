@@ -16,6 +16,21 @@
   },
   {
     "id": 2,
+    "title": "Product Page",
+    "description": {
+      "p1": "Shopping Page Template",
+      "p2": "",
+      "p3": ""
+    },
+    "technologies": {
+      "p1": "React.js, SASS",
+      "p2": ""
+    },
+    "url": "https://shopping-page-template.web.app/",
+    "image": "https://ip413.net/portfolio/shopping-template-mac%20.png"
+  },
+  {
+    "id": 3,
     "title": "Moralis",
     "description": {
       "p1": "Landing Page",
@@ -26,7 +41,7 @@
       "p1": "*currently under development*",
       "p2": "React.js, Redux, TypeScript, Tailwind"
     },
-    "url": "",
+    "url": "/",
     "image": "https://ip413.net/portfolio/moralis-mac.png"
   }
 ]

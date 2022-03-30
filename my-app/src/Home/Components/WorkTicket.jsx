@@ -51,9 +51,9 @@ const WorkTicket = (props) => {
                 <p>
                   {info.description.p1 ? info.description.p1 : "*No Data*"}
                   <br />
-                  {info.description.p2 ? info.description.p2 : "*No Data*"}
+                  {info.description.p2 ? info.description.p2 : ""}
                   <br />
-                  {info.description.p3 ? info.description.p3 : "*No Data*"}
+                  {info.description.p3 ? info.description.p3 : ""}
                 </p>
                 <hr className="my-2" />
                 <p>
