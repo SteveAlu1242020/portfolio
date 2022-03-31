@@ -11,6 +11,7 @@ import FooterTitle from './Home/Layout/FooterTitle';
 import ScrollTop from './Global/ScrollTop';
 import ScrollTopResponsive from './Global/ScrollTopResponsive';
 import Form from './Home/Components/Form';
+import Designs from './Home/Layout/Designs';
 
 export const menuDisplayContext = createContext(null)
 
@@ -24,6 +25,7 @@ function App() {
         <Experience />
         <Projects />
         <WordPress />
+        <Designs />
         <Skills />
         <FooterTitle />
         <Contact />
